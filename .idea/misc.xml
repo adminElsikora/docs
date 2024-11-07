@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AIAssistantCustomInstructionsStorage">
+    <option name="instructions">
+      <map>
+        <entry key="AIAssistant.VCS.GenerateCommitMessage">
+          <value>
+            <AIAssistantStoredInstruction>
+              <option name="actionId" value="AIAssistant.VCS.GenerateCommitMessage" />
+              <option name="content" value="Avoid overly verbose descriptions or unnecessary details.&#10;Create a commit following this format:&#10;&#10;&lt;type&gt;(&lt;scope&gt;): &lt;title&gt;&#10;&#10;description: &lt;detailed description of the changes&gt;&#10;&#10;Examples of commit types and their possible titles:&#10;- feat: adding new features&#10;- fix: fixing bugs&#10;- docs: documentation changes&#10;- style: style changes (formatting, missing semicolons, etc.)&#10;- refactor: code changes that neither fix bugs nor add features&#10;- perf: performance improvements&#10;- test: adding or correcting tests&#10;- chore: updating build tasks, package manager configs, etc.&#10;&#10;Commit examples:&#10;&#10;feat(auth): add social media login&#10;description: Implemented Facebook and Google login options to enhance user convenience.&#10;&#10;fix(profile): fix avatar display bug&#10;description: Corrected an issue where the user avatar would not display after profile update.&#10;&#10;docs(readme): update project setup instructions&#10;description: Added a section on environment setup for new developers.&#10;&#10;style(header): improve header readability&#10;description: Adjusted header font size for better readability on mobile devices.&#10;&#10;refactor(database): optimize database queries&#10;description: Rewritten SQL queries to reduce execution time.&#10;&#10;perf(images): reduce homepage image sizes&#10;description: Compressed images to speed up page load times.&#10;&#10;test(api): add tests for API endpoints&#10;description: Added unit tests for all major API endpoints.&#10;&#10;chore(deps): update project dependencies&#10;description: Updated all dependencies to their latest versions." />
+            </AIAssistantStoredInstruction>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <selected-state>
+          <State>
+            <id>User defined</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+</project>
