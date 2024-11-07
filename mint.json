@@ -15,6 +15,9 @@
       "to": "#07C983"
     }
   },
+  "api": {
+    "baseUrl": "https://reaper.icorepay.biz/api-json"
+  },
   "topbarLinks": [
     {
       "name": "Support",
